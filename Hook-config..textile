@@ -2,10 +2,10 @@ He's how to use hooks...
 
 first, I altered hook.py to include:
 
-@def Hook(event):
-    def callHook(f):
-        subscribe._subscribe(event, f)
-    return callHook@
+@def Hook(event):@
+@    def callHook(f):@
+@        subscribe._subscribe(event, f)@
+@    return callHook@
 
 although this does alter the libqtile files though...
 then I put this in my config:
