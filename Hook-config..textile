@@ -30,9 +30,9 @@ pre. class ClientSpec:
             client.togroup(self.group)
 #
 rules = [ ClientSpec(wmclass='XTerm', group="term"),
-              ClientSpec(wmclass='Chrome', group="inet"),
-              ClientSpec(name='leo', wmclass='Leo', group="edit"),
-              ClientSpec(wmclass='Emacs', group="edit")]
+          ClientSpec(wmclass='Chrome', group="inet"),
+          ClientSpec(name='leo', wmclass='Leo', group="edit"),
+          ClientSpec(wmclass='Emacs', group="edit")]
 #
 @Hook("client_new")
 def apply_rules(client):
