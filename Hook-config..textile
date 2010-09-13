@@ -19,7 +19,7 @@ pre. class ClientSpec:
         self.wmclass = wmclass
         if self.name is None and self.wmclass is None:
             raise TypeError, "Either a name or a wmclass must be specified"
-
+#
     def apply(self, client):
         if self.wmclass:
             cliinfo = client.cmd_inspect()
@@ -28,12 +28,12 @@ pre. class ClientSpec:
             cliclass = ()
         if client.name == self.name or self.wmclass in cliclass:
             client.togroup(self.group)
-
+#
 rules = [ ClientSpec(wmclass='XTerm', group="term"),
               ClientSpec(wmclass='Chrome', group="inet"),
               ClientSpec(name='leo', wmclass='Leo', group="edit"),
               ClientSpec(wmclass='Emacs', group="edit")]
-
+#
 @Hook("client_new")
 def apply_rules(client):
     global rules
