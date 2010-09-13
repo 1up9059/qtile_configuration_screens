@@ -1,4 +1,9 @@
-He's how to use hooks...
+!!NOTE
+the hooks mechanism is still under a little development, expect new code
+here soon; preferably that doesn't require you to change hooks.py!
+NOTE!!
+
+Here's how to use hooks...
 
 first, I altered hook.py to include:
 
