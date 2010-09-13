@@ -10,9 +10,13 @@ pre. def Hook(event):
 although this does alter the libqtile files though...
 then I put this in my config:
 
+pre. from libqtile.manager import Group
 from libqtile.hook import Hook
-
-pre. class ClientSpec:
+#
+groups = ["term", "inet", "edit"]
+groups = map(Group, groups)
+#
+class ClientSpec:
     def __init__(self, group, name=None, wmclass=None):
         self.group = group
         self.name = name
