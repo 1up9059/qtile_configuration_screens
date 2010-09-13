@@ -2,7 +2,7 @@ He's how to use hooks...
 
 first, I altered hook.py to include:
 
-pre.def Hook(event):
+pre. def Hook(event):
     def callHook(f):
         subscribe._subscribe(event, f)
     return callHook
@@ -12,7 +12,7 @@ then I put this in my config:
 
 from libqtile.hook import Hook
 
-@class ClientSpec:
+pre. class ClientSpec:
     def __init__(self, group, name=None, wmclass=None):
         self.group = group
         self.name = name
@@ -40,4 +40,4 @@ def apply_rules(client):
     if client is None:
         return
     for rule in rules:
-        rule.apply(client)@
+        rule.apply(client)
