@@ -1,5 +1,5 @@
 I'm wondering How qtile should handle having no groups (empty groups list),<br>
-at present, qtile isn't too happy about having no groups.<br>
+at present, qtile isn't too happy about having no groups.<br><br>
 I can see three possible directions:<br>
 1) have any functions that manipulate the groups list refuse to remove the last group.<br>
 2) automatically spawn a new group should the group list become empty.<br>
