@@ -8,3 +8,7 @@ Welcome to the qtile wiki!
 
 "Main site":http://www.qtile.org/
 "Documentation for developers":http://www.qtile.org/doc-current/index.html
+
+Discussion/Issue posts:
+[[no-groups?]]
+[[Breaking up qtile?]]
