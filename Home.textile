@@ -6,8 +6,8 @@ Welcome to the qtile wiki!
 * Complete remote scriptability - write scripts to set up workspaces, manipulate windows, update status bar widgets and more.
 * Qtile's scriptability has made a thorough unit testing possible, making it one of the best-tested window managers around.
 
-"Main site":http://www.qtile.org/
-"Documentation for developers":http://www.qtile.org/doc-current/index.html
+"Main site":http://qtile.org/
+"Documentation for developers":http://docs.qtile.org
 
 Discussion/Issue posts:
 [[no-groups?]]
