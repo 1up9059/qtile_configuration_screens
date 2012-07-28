@@ -12,3 +12,4 @@ Welcome to the qtile wiki!
 Discussion/Issue posts:
 [[no-groups?]]
 [[Breaking up qtile?]]
+[[Layout Ideas]]
