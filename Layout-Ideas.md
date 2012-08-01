@@ -18,7 +18,7 @@ If you have any thoughts for improvements to existing layouts, please note them 
 
 ## Existing Qtile layouts
 ### Max
-### Slice
+### Stack
 ### Tile
 ### Monad-tall
 ### Ratiotile
