@@ -13,3 +13,4 @@ Discussion/Issue posts:
 [[no-groups?]]
 [[Breaking up qtile?]]
 [[Layout Ideas]]
+[[Running in GNOME]]
