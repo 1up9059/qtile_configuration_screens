@@ -1,17 +1,1 @@
-Welcome to the qtile wiki!
-
-*Features*
-* Simple, small and extensible. It's easy to write your own layouts, widgets and commands.
-* Configured in Python. Command shell that allows all aspects of Qtile to be managed and inspected.
-* Complete remote scriptability - write scripts to set up workspaces, manipulate windows, update status bar widgets and more.
-* Qtile's scriptability has made a thorough unit testing possible, making it one of the best-tested window managers around.
-
-"Main site":http://qtile.org/
-"Documentation for developers":http://docs.qtile.org
-"Forum":http://kobraz.org.ua/qforum/index.php
-
-Discussion/Issue posts:
-[[no-groups?]]
-[[Breaking up qtile?]]
-[[Layout Ideas]]
-[[Running in GNOME]]
+This is the qtile wiki, newly opened for adding GSoC project ideas an information. Please use the mailing list for any development discussion.
