@@ -2,12 +2,11 @@ WIP: See https://wiki.python.org/moin/SummerOfCode/OrgIdeasPageTemplate
 
 ##### Table of Contents
 
-* [About Qtile](#about_qtile)
-* [Getting Started](#getting_started)
-* [Writing Your Application](#writing_your_application)
-* [Project Ideas](#project_ideas)
+* [About Qtile](#about-qtile)
+* [Getting Started](#getting-started)
+* [Writing Your Application](#writing-your-application)
+* [Project Ideas](#project-ideas)
 
-<a name="about_qtile"/>
 # About Qtile
 
 todo
@@ -16,17 +15,14 @@ Mailing List: http://groups.google.com/group/qtile-dev
 
 IRC: irc://irc.oftc.net:6667/qtile
 
-<a name="getting_started"/>
 # Getting started
 
 todo
 
-<a name="writing_your_application"/>
-# Writing you application
+# Writing your application
 
 todo
 
-<a name="project_ideas"/>
 # Project Ideas
 
 ## An asyncio-based DBus library.
