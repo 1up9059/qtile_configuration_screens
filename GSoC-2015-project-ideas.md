@@ -43,7 +43,7 @@ free to propose an idea to us that you are interested in.
 ## An asyncio-based DBus library.
 
 As a part of the 0.9.0 release, we [dropped all C extensions as hard
-dependencies](/blob/develop/CHANGELOG#L3), including dropping the PyGTK/GLib
+dependencies](../blob/develop/CHANGELOG#L3), including dropping the PyGTK/GLib
 event loop in favor of the new Python asyncio event loop.  However, several of
 the widgets, such as the MPRIS widget, rely on D-Bus, and the [python-dbus
 library](http://dbus.freedesktop.org/doc/dbus-python/) is [hard
