@@ -59,7 +59,7 @@ directly with asyncio (and preferably other future event loops).  In other
 words, this would be writing a pure Python D-Bus binding that can be configured
 to fire off asyncio calls.  Tools such as cffi could be used to make the
 necessary libdbus calls (this is what we did with
-[xcffib](https://github.com/tych0/xcffib) to get rid of the xpyb dependency.
+[xcffib](https://github.com/tych0/xcffib) to get rid of the xpyb dependency).
 
 This project is not really Qtile specific, but will be needed by the general
 python community going forward if the asyncio event loop is going take hold.
