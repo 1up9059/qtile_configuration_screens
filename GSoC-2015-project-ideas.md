@@ -65,7 +65,7 @@ python community going forward if the asyncio event loop is going take hold.
 
 **Difficulty:**
 
-### Related Links
+**Related Links:**
 
 * [Python asycio library](https://docs.python.org/3/library/asyncio.html)
 * [gbulb](https://bitbucket.org/a_ba/gbulb), a Python 3.3+ library that wraps
@@ -84,7 +84,7 @@ preserve that code going forward
 
 **Difficulty:**
 
-### Related Links
+**Related Links:**
 
 ## Better layout serialization
 
@@ -97,4 +97,4 @@ share some implementation pieces of the window shape(s).
 
 **Difficulty:**
 
-### Related Links
+**Related Links:**
