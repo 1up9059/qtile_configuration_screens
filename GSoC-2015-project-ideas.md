@@ -61,9 +61,9 @@ necessary libdbus calls.
 This project is not really Qtile specific, but will be needed by the general
 python community going forward if the asyncio event loop is going take hold.
 
-Skills:
+**Skills:**
 
-Difficulty:
+**Difficulty:**
 
 ### Related Links
 
