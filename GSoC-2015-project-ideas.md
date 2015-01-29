@@ -37,17 +37,41 @@ todo
 
 # Project Ideas
 
+Here are some potential ideas we have thought may be appropriate, however, feel
+free to propose an idea to us that you are interested in.
+
 ## An asyncio-based DBus library.
 
-This is not really qtile specific, but will be needed by the general python
-community going forward.  Having something like this would also get rid of our
-hack to work around not having it.
+As a part of the 0.9.0 release, we [dropped all C extensions as hard
+dependencies](/blob/develop/CHANGELOG#L3), including dropping the PyGTK/GLib
+event loop in favor of the new Python asyncio event loop.  However, several of
+the widgets, such as the MPRIS widget, rely on D-Bus, and the [python-dbus
+library](http://dbus.freedesktop.org/doc/dbus-python/) is [hard
+coded](http://cgit.freedesktop.org/dbus/dbus-python/tree/dbus/mainloop/glib.py)
+to use the gobject event loop.  We have come up with a
+[hack](https://github.com/qtile/qtile/commit/82256a47b9f954b2bb9922b821dfd6d529dc5437)
+to get around this limitation, however, it is not ideal.
 
-Related Links:
+The point of this project is to implement a D-Bus library that can work
+directly with asyncio (and preferably other future event loops).  In other
+words, this would be writing a pure Python D-Bus binding that can be configured
+to fire off asyncio calls.  Tools such as cffi could be used to make the
+necessary libdbus calls.
+
+This project is not really Qtile specific, but will be needed by the general
+python community going forward if the asyncio event loop is going take hold.
 
 Skills:
 
 Difficulty:
+
+### Related Links
+
+* [Python asycio library](https://docs.python.org/3/library/asyncio.html)
+* [gbulb](https://bitbucket.org/a_ba/gbulb), a Python 3.3+ library that wraps
+  the GLib event loop in asyncio (but that we have not been able to get working
+  with qtile)
+* Current [python-dbus](http://dbus.freedesktop.org/doc/dbus-python/) C extension
 
 ## Experimental Wayland support
 
@@ -56,11 +80,11 @@ experimental support for it to see just how much of qtile is re-usable. The
 real value of qtile is in the user contributed widgets, so we'd like to
 preserve that code going forward
 
-Related Links:
+**Skills:**
 
-Skills:
+**Difficulty:**
 
-Difficulty:
+### Related Links
 
 ## Better layout serialization
 
@@ -69,8 +93,8 @@ nice to have that. It may be possible to just pickle and pass the state of each
 layout, but this would probably also involve a re-design of the layout code to
 share some implementation pieces of the window shape(s).
 
-Related Links:
+**Skills:**
 
-Skills:
+**Difficulty:**
 
-Difficulty:
+### Related Links
