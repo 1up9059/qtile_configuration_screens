@@ -50,7 +50,9 @@ library](http://dbus.freedesktop.org/doc/dbus-python/) is [hard
 coded](http://cgit.freedesktop.org/dbus/dbus-python/tree/dbus/mainloop/glib.py)
 to use the gobject event loop.  We have come up with a
 [hack](https://github.com/qtile/qtile/commit/82256a47b9f954b2bb9922b821dfd6d529dc5437)
-to get around this limitation, however, it is not ideal.
+to get around this limitation by wrapping the GLib event loop, however, it is
+not ideal (in addition to being a bit of a hack, it means those widgets cannot
+run in Qtile on PyPy).
 
 The point of this project is to implement a D-Bus library that can work
 directly with asyncio (and preferably other future event loops).  In other
