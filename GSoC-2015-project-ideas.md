@@ -58,7 +58,8 @@ The point of this project is to implement a D-Bus library that can work
 directly with asyncio (and preferably other future event loops).  In other
 words, this would be writing a pure Python D-Bus binding that can be configured
 to fire off asyncio calls.  Tools such as cffi could be used to make the
-necessary libdbus calls.
+necessary libdbus calls (this is what we did with
+[xcffib](https://github.com/tych0/xcffib) to get rid of the xpyb dependency.
 
 This project is not really Qtile specific, but will be needed by the general
 python community going forward if the asyncio event loop is going take hold.
@@ -74,6 +75,7 @@ python community going forward if the asyncio event loop is going take hold.
   the GLib event loop in asyncio (but that we have not been able to get working
   with qtile)
 * Current [python-dbus](http://dbus.freedesktop.org/doc/dbus-python/) C extension
+* [CFFI](https://cffi.readthedocs.org/) could be used to call libdbus
 
 ## Experimental Wayland support
 
