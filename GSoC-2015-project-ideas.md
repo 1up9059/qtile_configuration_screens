@@ -102,3 +102,15 @@ share some implementation pieces of the window shape(s).
 **Difficulty:**
 
 **Related Links:**
+
+## Refactor window focusing
+
+todo
+
+**Skills:**
+
+**Difficulty:**
+
+**Related Links:**
+
+* https://github.com/qtile/qtile/issues?q=focus+in%3Atitle+is%3Aissue+is%3Aopen
