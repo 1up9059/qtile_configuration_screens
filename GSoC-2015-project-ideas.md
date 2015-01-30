@@ -66,7 +66,11 @@ python community going forward if the asyncio event loop is going take hold.
 
 **Skills:**
 
+python, C, and some understanding of how dbus works.
+
 **Difficulty:**
+
+Medium/Hard. Although this will be very exciting because it will be a from-scratch project, that means it will also be difficult because you'll have to design an entirely new codebase, including FFI to C.
 
 **Related Links:**
 
@@ -86,9 +90,15 @@ preserve that code going forward
 
 **Skills:**
 
+python, C, potentially some understanding of Wayland
+
 **Difficulty:**
 
+Hard. Very few of us (if any) have any experience with Wayland, although we are learning about the API. The student will likely need to take the lead on any confusing Wayland issues and potentially work with their ML on any bugs that arise.
+
 **Related Links:**
+
+http://wayland.freedesktop.org/
 
 ## Better layout serialization
 
@@ -99,7 +109,11 @@ share some implementation pieces of the window shape(s).
 
 **Skills:**
 
+python, good design
+
 **Difficulty:**
+
+Easy. This one is really just an exercise in software design. Qtile's layout code has grown over the years to incorporate lots of different options, functions, overrides, etc., without anyone really sitting down to redesign things. 
 
 **Related Links:**
 
