@@ -132,14 +132,15 @@ arise.
 
 ## Better layout serialization
 
-Qtile currently does not serialize layout state across restarts, and it would
-be nice to have that. It may be possible to just pickle and pass the state of
+Qtile currently does not serialize layout state across restarts and does not
+maintain order and focus between layout changes, and it would be nice to have
+that. For restarts, it may be possible to just pickle and pass the state of
 each layout, but this would probably also involve a re-design of the layout
 code to share some implementation pieces of the window shape(s).
 
 **Skills:**
 
-python, good design
+Python, good software design
 
 **Difficulty:**
 
@@ -150,17 +151,48 @@ things.
 
 **Related Links:**
 
+* Various bugs related to layouts:
+  [#372](https://github.com/qtile/qtile/issues/549),
+  [#473](https://github.com/qtile/qtile/issues/473),
+  [#549](https://github.com/qtile/qtile/issues/549)
+
 ## Refactor window focusing
 
-todo
+Properly routing focus and grabbing input is no simple task X, while Qtile is
+able to properly deal with simple cases like using the mouse or keyboard to
+select an open window, there are definitely places where we do not deal with
+input appropriately.  Things like the [prompt
+widget](http://qtile.readthedocs.org/en/latest/manual/ref/widgets.html#libqtile.widget.Prompt)
+should be able to grab focus without other windows taking it back.  There are
+also external panels which control window focus that do not work properly with
+Qtile.  Just like the layout code, Qtile has adapted where it could, but it
+would be great if the focusing could be overhauled to work correctly with
+external programs and be extensible enough for things like the prompt widget to
+function as expected.
 
 **Skills:**
 
+Python, good software design, maybe familiarity with X
+
 **Difficulty:**
+
+Easy/Medium.  Just like the layout project, a lot of this project will be
+designing a same way to deal with layout that meets our needs.  This is a bit
+trickier as it requires properly dealing with X events and input.
 
 **Related Links:**
 
-* https://github.com/qtile/qtile/issues?q=focus+in%3Atitle+is%3Aissue+is%3Aopen
+* Focusing issues coming up related to cursor warp:
+  [#538](https://github.com/qtile/qtile/issues/538)
+* Issue dragging windows with multiple screens
+  [#297](https://github.com/qtile/qtile/issues/297)
+* [Github issues mentioning
+  focus](https://github.com/qtile/qtile/issues?q=focus+in%3Atitle+is%3Aissue+is%3Aopen),
+  in particular [#444](https://github.com/qtile/qtile/issues/444)
+* EWMH `_NET_ACTIVE_WINDOW`
+  [hint](http://standards.freedesktop.org/wm-spec/latest/ar01s03.html#idm139870830075168)
+* ICCCM [discussion of input
+  focus](http://tronche.com/gui/x/icccm/sec-4.html#s-4.1.7)
 
 ## Quick Jump to Windows in a Group by Window Title Search 
 
