@@ -6,6 +6,7 @@ WIP: See https://wiki.python.org/moin/SummerOfCode/OrgIdeasPageTemplate
 * [Getting Started](#getting-started)
 * [Writing Your Application](#writing-your-application)
 * [Project Ideas](#project-ideas)
+* [Possible Mentors](#possible-mentors)
 
 # About Qtile
 
@@ -18,18 +19,24 @@ are also able to add functionality to existing widgets or create their own
 widgets and layouts.  In addition, Qtile exposes all of the functionality of
 the window manager through a scripting interface, such that events normally run
 on the keyboard or with the mouse can be triggered through scripts.  This also
-alows for unit testing of Qtile, that it properly displays windows, and
+allows for unit testing of Qtile, that it properly displays windows, and
 layouts, that they properly move and position windows.
 
-todo
+If you are interested in working with Qtile (whether for GSoC or not), you can
+join our mailing list, where we both discuss development issues and provide
+help to users.  You can also contact us through IRC.  The links to these are:
 
 Mailing List: http://groups.google.com/group/qtile-dev
 
-IRC: irc://irc.oftc.net:6667/qtile
+IRC: [irc://irc.oftc.net:6667/qtile](irc://irc.oftc.net:6667/qtile)
 
 # Getting started
 
-todo
+todo: installing deps
+
+todo: github/forking qtile
+
+todo: using qtile
 
 # Writing your application
 
@@ -66,11 +73,14 @@ python community going forward if the asyncio event loop is going take hold.
 
 **Skills:**
 
-python, C, and some understanding of how dbus works.
+Python, C (or at least C bindings in Python), and some understanding of how
+D-Bus works.
 
 **Difficulty:**
 
-Medium/Hard. Although this will be very exciting because it will be a from-scratch project, that means it will also be difficult because you'll have to design an entirely new codebase, including FFI to C.
+Medium/Hard. Although this will be very exciting because it will be a
+from-scratch project, that means it will also be difficult because you will
+have to design an entirely new codebase, including FFI to C.
 
 **Related Links:**
 
@@ -84,28 +94,48 @@ Medium/Hard. Although this will be very exciting because it will be a from-scrat
 ## Experimental Wayland support
 
 Wayland is the way forward, so it would be good to start working on
-experimental support for it to see just how much of qtile is re-usable. The
-real value of qtile is in the user contributed widgets, so we'd like to
-preserve that code going forward
+experimental support for it to see just how much of Qtile is re-usable.
+The real value of Qtile is in the user contributed widgets, so we would like to
+preserve that code going forward.
+
+Preferably, we would be able to run Qtile as a standalone window manager, not
+as a Weston shell.  This would require breaking out a lot of the current window
+handling code into some abstraction layer that can be configured to run with
+wither X or Wayland.  This would be a massive overhaul touching many points in
+the codebase.
+
+For this to work at all, we need Python bindings to libwayland, and maybe some
+other Python libraries to do everything that needs to be done.  There is some
+support for making language bindings for the Wayland
+[server](http://cgit.freedesktop.org/wayland/wayland/commit/?id=c44090908db1c4f1b0e87bda2e4fdaa6bc15c0d1)
+and
+[client](http://cgit.freedesktop.org/wayland/wayland/commit/?id=eb947e9408c149041c4c8e1c80ef9ebea049f477),
+but such bindings would may need to be implements. If you are interested in this
+project, the first thing that should be addressed is what of the necessary tools
+exist and what would need to be developed.
 
 **Skills:**
 
-python, C, potentially some understanding of Wayland
+Python, some understanding of Wayland (including the relevant C libraries
+therein)
 
 **Difficulty:**
 
-Hard. Very few of us (if any) have any experience with Wayland, although we are learning about the API. The student will likely need to take the lead on any confusing Wayland issues and potentially work with their ML on any bugs that arise.
+Hard. Very few of us (if any) have any experience with Wayland, although we are
+learning about the API. The student will likely need to take the lead on any
+confusing Wayland issues and potentially work with their ML on any bugs that
+arise.
 
 **Related Links:**
 
-http://wayland.freedesktop.org/
+* Resources available from Wayland http://wayland.freedesktop.org/
 
 ## Better layout serialization
 
-Qtile currently doesn't serialize layout state across restarts, and it would be
-nice to have that. It may be possible to just pickle and pass the state of each
-layout, but this would probably also involve a re-design of the layout code to
-share some implementation pieces of the window shape(s).
+Qtile currently does not serialize layout state across restarts, and it would
+be nice to have that. It may be possible to just pickle and pass the state of
+each layout, but this would probably also involve a re-design of the layout
+code to share some implementation pieces of the window shape(s).
 
 **Skills:**
 
@@ -113,7 +143,10 @@ python, good design
 
 **Difficulty:**
 
-Easy. This one is really just an exercise in software design. Qtile's layout code has grown over the years to incorporate lots of different options, functions, overrides, etc., without anyone really sitting down to redesign things. 
+Easy. This one is really just an exercise in software design. Qtile's layout
+code has grown over the years to incorporate lots of different options,
+functions, overrides, etc., without anyone really sitting down to redesign
+things. 
 
 **Related Links:**
 
@@ -131,10 +164,16 @@ todo
 
 ## Quick Jump to Windows in a Group by Window Title Search 
 
-This would be very useful if you have a lot of windows in a group and you want to focus quickly to the current window without navigating trough the panes / or zapping trough aplpication in the maximum-size layout. Imagine, you can type /f to get quickly to the open firefox window in the group (like in VIM jumping to a text passage), and so on. Let us discuss this idea!
+This would be very useful if you have a lot of windows in a group and you want
+to focus quickly to the current window without navigating trough the panes / or
+zapping trough application in the maximum-size layout. Imagine, you can type /f
+to get quickly to the open Firefox window in the group (like in VIM jumping to
+a text passage), and so on. Let us discuss this idea!
 
 **Skills:**
 
 **Difficulty:**
 
 **Related Links:**
+
+# Possible Mentors
