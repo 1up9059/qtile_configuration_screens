@@ -114,3 +114,13 @@ todo
 **Related Links:**
 
 * https://github.com/qtile/qtile/issues?q=focus+in%3Atitle+is%3Aissue+is%3Aopen
+
+## Quick Jump to Windows in a Group by Window Title Search 
+
+This would be very useful if you have a lot of windows in a group and you want to focus quickly to the current window without navigating trough the panes / or zapping trough aplpication in the maximum-size layout. Imagine, you can type /f to get quickly to the open firefox window in the group (like in VIM jumping to a text passage), and so on. Let us discuss this idea!
+
+**Skills:**
+
+**Difficulty:**
+
+**Related Links:**
