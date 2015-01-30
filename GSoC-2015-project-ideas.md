@@ -1,8 +1,12 @@
 WIP: See https://wiki.python.org/moin/SummerOfCode/OrgIdeasPageTemplate
 
+Welcome to Qtile!  In addition to this page, you can also look at the [PSF GSoC
+page](https://wiki.python.org/moin/SummerOfCode/2015) for more information.
+
 ##### Table of Contents
 
 * [About Qtile](#about-qtile)
+    * [Contact Us](#contact-us)
 * [Getting Started](#getting-started)
 * [Writing Your Application](#writing-your-application)
 * [Project Ideas](#project-ideas)
@@ -18,9 +22,13 @@ Qtile ships with a base set of widgets and layouts that can be set-up, but users
 are also able to add functionality to existing widgets or create their own
 widgets and layouts.  In addition, Qtile exposes all of the functionality of
 the window manager through a scripting interface, such that events normally run
-on the keyboard or with the mouse can be triggered through scripts.  This also
-allows for unit testing of Qtile, that it properly displays windows, and
-layouts, that they properly move and position windows.
+on the keyboard or with the mouse can be triggered through scripts, made
+possible by the powerful introspection features of Python.  This also allows
+for unit testing of Qtile, that it properly displays windows, and layouts, that
+they properly move and position windows.  By using Python, Qtile is very
+extensible and users can easily modify or add functionality as they see fit.
+
+## Contact Us
 
 If you are interested in working with Qtile (whether for GSoC or not), you can
 join our mailing list, where we both discuss development issues and provide
@@ -32,11 +40,28 @@ IRC: [irc://irc.oftc.net:6667/qtile](irc://irc.oftc.net:6667/qtile)
 
 # Getting started
 
-todo: installing deps
+The first thing you will need to do to get started hacking on Qtile is to get
+it installed.  Qtile has a small list of dependencies, primarily other Python
+libraries, you can see the full guide to installing Python [in our
+documentation](http://qtile.readthedocs.org/en/latest/manual/install/index.html).
 
-todo: github/forking qtile
+Next, you will need to get yourself setup on GitHub.  We use git for version
+control and our development takes place on GitHub.  Github has some [great help
+pages](https://help.github.com/) to help get you setup with an account and
+forking our [main repository](https://github.com/qtile/qtile/).  We have guides
+for our recommended [contribution
+workflow](http://qtile.readthedocs.org/en/latest/manual/contributing.html) and
+on [hacking and
+testing](http://qtile.readthedocs.org/en/latest/manual/hacking.html) the
+changes you make.
 
-todo: using qtile
+Now that you are up and running, you can try to [configure
+Qtile](http://qtile.readthedocs.org/en/latest/manual/config/index.html) to your
+liking.  You can check out our [open
+issues](https://github.com/qtile/qtile/issues) if you want somewhere to start
+hacking, or feel free add functionality, make improvements, and fix bugs as you
+see fit.  You can always [contact other developers](#contact-us) if you need
+any help getting setup and running Qtile or would like to discuss your project.
 
 # Writing your application
 
