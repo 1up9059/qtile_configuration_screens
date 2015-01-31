@@ -32,7 +32,7 @@ extensible and users can easily modify or add functionality as they see fit.
 
 If you are interested in working with Qtile (whether for GSoC or not), you can
 join our mailing list, where we both discuss development issues and provide
-help to users.  You can also contact us through IRC.  The links to these are:
+help to users.  You can also contact us through IRC, which is where most of our development discussion takes place.  The links to these are:
 
 Mailing List: http://groups.google.com/group/qtile-dev
 
