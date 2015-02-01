@@ -65,7 +65,25 @@ any help getting setup and running Qtile or would like to discuss your project.
 
 # Writing your application
 
+After introducing yourself and getting setup with Qtile, you will have to draft up your application.  You will have to submit a proposal on the [Google Summer of Code website](http://www.google-melange.com/). (TODO: Add details when mentor orgs are selected).  A good application should address:
+
+## Your personal background
+
+What is your name and current University enrollment.  You can include a short bio.  Here, you should say how we can contact you, things like email address, IRC handle, GitHub username, and Google Melange username.
+
+## Your programming background
+
+Let us know what sort of programming experience you have.  Do not worry if you are not familiar or do not have experience with Qtile or git/GitHub.  Here, you can highlight any past projects that you have worked on.  In particular, you should mention things that may be related to your proposal, such as Python projects you have developed or experience with git or some other version control system.
+
+## Your project
+
+This should form the bulk of you proposal.
+
 todo
+
+# Patch requirement
+
+(Sean: do we want something like a patch requirement just to show that students applying know how to set their system up and use git/GitHub?)
 
 # Project Ideas
 
