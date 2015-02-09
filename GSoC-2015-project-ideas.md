@@ -32,7 +32,8 @@ extensible and users can easily modify or add functionality as they see fit.
 
 If you are interested in working with Qtile (whether for GSoC or not), you can
 join our mailing list, where we both discuss development issues and provide
-help to users.  You can also contact us through IRC, which is where most of our development discussion takes place.  The links to these are:
+help to users.  You can also contact us through IRC, which is where most of our
+development discussion takes place.  The links to these are:
 
 Mailing List: http://groups.google.com/group/qtile-dev
 
@@ -65,21 +66,67 @@ any help getting setup and running Qtile or would like to discuss your project.
 
 # Writing your application
 
-After introducing yourself and getting setup with Qtile, you will have to draft up your application.  You will have to submit a proposal on the [Google Summer of Code website](http://www.google-melange.com/). (TODO: Add details when mentor orgs are selected).  A good application should address:
+After introducing yourself and getting setup with Qtile, you will have to draft
+up your application.  You will have to submit a proposal on the [Google Summer
+of Code website](http://www.google-melange.com/). (TODO: Add details when
+mentor orgs are selected).  A good application should address:
 
 ## Your personal background
 
-What is your name and current University enrollment.  You can include a short bio.  Here, you should say how we can contact you, things like email address, IRC handle, GitHub username, and Google Melange username.
+What is your name and current University enrollment.  You can include a short
+bio.  Here, you should say how we can contact you, things like email address,
+IRC handle, GitHub username, and Google Melange username.
 
 ## Your programming background
 
-Let us know what sort of programming experience you have.  Do not worry if you are not familiar or do not have experience with Qtile or git/GitHub.  Here, you can highlight any past projects that you have worked on.  In particular, you should mention things that may be related to your proposal, such as Python projects you have developed or experience with git or some other version control system.
+Let us know what sort of programming experience you have.  Do not worry if you
+are not familiar or do not have experience with Qtile or git/GitHub.  Here, you
+can highlight any past projects that you have worked on.  In particular, you
+should mention things that may be related to your proposal, such as Python
+projects you have developed or experience with git or some other version
+control system.
 
 ## Your project
 
-This should form the bulk of you proposal.
+This should form the bulk of you proposal.  You need to detail what you want to
+achieve, what you need to create, what you can use from elsewhere, and what the
+final product will look like.  Note that you should not just copy text off this
+page, you should formulate your project in your own way.
 
-todo
+First, you should give some background on your project.  You will have to
+explain what your project is and why it is important to Qtile.  Emphasize any
+experience you have with subject matter (even if you have stated it in your
+background).  While you do not need to start on your project, you will need to
+do enough research on it to show that you are capable of completing it.
+
+You should note what work has been done, within Qtile, within the Python
+community, or elsewhere, relating to your project.  Especially if your project
+involves interfacing with external projects, you should outline what has been
+done with these projects, if there are any improvements that will need to be
+made, and how you intend to make those improvements.  If your project involves
+reworking something within Qtile, you should outline the current setup, where
+it is lacking, and how your project will improve this.
+
+You should detail what you intend to implement.  The more details you can give
+here, the better.  The most important thing is what you will deliver as your
+final product.  If this involves any user-facing API, you can discuss what the
+expected behavior will be.  Depending on what your project is, you could
+include pseudo-code classes and methods detailing what you want to implement.
+Again, the greater detail you can provide, the stronger your application.
+
+You should also include a general timeline for your project.  You should state
+when your classes are done and you intend to start work on your project, note
+the [official GSoC
+calendar](http://www.google-melange.com/gsoc/events/google/gsoc2015) has the
+program running from May 25 to August 21, and includes both a midterm and final
+review, both of which should be factored in.  How much do you intend on working
+during the program? (hint: it should be 40 hours per week).  If there is any
+preliminary research or things you would like before the program start, you can
+outline them.  Note that you should allow time for scrubbing code and writing
+documentation (less readable, well documented code will always be better than
+more unreadable, undocumented code).  You may also want to note good points to
+merge code, it is much easier to do several smaller merges throughout the
+summer than caught trying to do one big merge as the project winds down.
 
 # Patch requirement
 
@@ -253,7 +300,7 @@ a text passage), and so on. Let us discuss this idea!
 
 # Possible Mentors
 
-Below are possible mentors for any of the above projects (irc nick is in parens):
+Below are possible mentors for any of the above projects (IRC nick is in parens):
 
 * Tycho Andersen (tych0)
 * Sean Vig (svig)
