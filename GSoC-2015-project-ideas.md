@@ -226,6 +226,10 @@ arise.
 
 * Resources available from Wayland http://wayland.freedesktop.org/
 
+* [Wayland language binding
+  guide](http://www.jlekstrand.net/jason/projects/wayland/language-bindings-guide/)
+  and related resources from Ekstrand's Java bindings
+
 ## Better layout serialization
 
 Qtile currently does not serialize layout state across restarts and does not
