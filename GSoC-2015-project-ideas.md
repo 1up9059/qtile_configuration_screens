@@ -120,7 +120,7 @@ the [official GSoC
 calendar](http://www.google-melange.com/gsoc/events/google/gsoc2015) has the
 program running from May 25 to August 21, and includes both a midterm and final
 review, both of which should be factored in.  We know that things can change
-and unforseen problems can arise, so we will not hold you strictly to this
+and unforeseen problems can arise, so we will not hold you strictly to this
 timeline, but you should estimate how long you think things will take, and in
 particular show that you can fill a full summer.  How much do you intend on
 working during the program? (hint: it should be 40 hours per week).  If you
