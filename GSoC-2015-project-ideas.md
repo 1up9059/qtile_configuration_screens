@@ -131,8 +131,8 @@ before the program start, you can outline them.  Note that you should allow
 time for scrubbing code and writing documentation (less readable, well
 documented code will always be better than more unreadable, undocumented code).
 You may also want to note good points to merge code, it is much easier to do
-several smaller merges throughout the summer than caught trying to do one big
-merge as the project winds down.
+several smaller merges throughout the summer than get caught trying to do one
+big merge as the project winds down.
 
 # Patch requirement
 
