@@ -309,6 +309,6 @@ a text passage), and so on. Let us discuss this idea!
 Below are possible mentors for any of the above projects (IRC nick is in parens):
 
 * Tycho Andersen (tych0)
-* Sean Vig (svig)
+* Sean Vig (IRC: svig) (melange: flacjacket)
 * Roger Duran (rogerduran)
 * Daniel Barrio (dx)
