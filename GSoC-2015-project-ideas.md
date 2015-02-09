@@ -119,14 +119,20 @@ when your classes are done and you intend to start work on your project, note
 the [official GSoC
 calendar](http://www.google-melange.com/gsoc/events/google/gsoc2015) has the
 program running from May 25 to August 21, and includes both a midterm and final
-review, both of which should be factored in.  How much do you intend on working
-during the program? (hint: it should be 40 hours per week).  If there is any
-preliminary research or things you would like before the program start, you can
-outline them.  Note that you should allow time for scrubbing code and writing
-documentation (less readable, well documented code will always be better than
-more unreadable, undocumented code).  You may also want to note good points to
-merge code, it is much easier to do several smaller merges throughout the
-summer than caught trying to do one big merge as the project winds down.
+review, both of which should be factored in.  We know that things can change
+and unforseen problems can arise, so we will not hold you strictly to this
+timeline, but you should estimate how long you think things will take, and in
+particular show that you can fill a full summer.  How much do you intend on
+working during the program? (hint: it should be 40 hours per week).  If you
+have any planned trips or times you will not be able to work full-time, we need
+to know about them upfront, and you should outline when you intend on making up
+any lost time.  If there is any preliminary research or things you would like
+before the program start, you can outline them.  Note that you should allow
+time for scrubbing code and writing documentation (less readable, well
+documented code will always be better than more unreadable, undocumented code).
+You may also want to note good points to merge code, it is much easier to do
+several smaller merges throughout the summer than caught trying to do one big
+merge as the project winds down.
 
 # Patch requirement
 
