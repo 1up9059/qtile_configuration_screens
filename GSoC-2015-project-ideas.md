@@ -252,3 +252,10 @@ a text passage), and so on. Let us discuss this idea!
 **Related Links:**
 
 # Possible Mentors
+
+Below are possible mentors for any of the above projects (irc nick is in parens):
+
+* Tycho Andersen (tych0)
+* Sean Vig (svig)
+* Roger Duran (rogerduran)
+* Daniel Barrio (dx)
