@@ -252,7 +252,7 @@ things.
 **Related Links:**
 
 * Various bugs related to layouts:
-  [#372](https://github.com/qtile/qtile/issues/549),
+  [#372](https://github.com/qtile/qtile/issues/372),
   [#473](https://github.com/qtile/qtile/issues/473),
   [#549](https://github.com/qtile/qtile/issues/549)
 
