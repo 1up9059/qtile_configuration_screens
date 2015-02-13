@@ -1,7 +1,10 @@
 WIP: See https://wiki.python.org/moin/SummerOfCode/OrgIdeasPageTemplate
 
 Welcome to Qtile!  In addition to this page, you can also look at the [PSF GSoC
-page](https://wiki.python.org/moin/SummerOfCode/2015) for more information.
+page](https://wiki.python.org/moin/SummerOfCode/2015) for more information.  The
+PSF wiki also has [expectations of GSoC
+students](https://wiki.python.org/moin/SummerOfCode/Expectations) which applies
+to any potential project.
 
 ##### Table of Contents
 
