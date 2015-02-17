@@ -14,6 +14,7 @@ to any potential project.
 * [Writing Your Application](#writing-your-application)
 * [Project Ideas](#project-ideas)
 * [Possible Mentors](#possible-mentors)
+* [GSoC Questionnaire](#gsoc-questionnaire)
 
 # About Qtile
 
@@ -319,3 +320,47 @@ Below are possible mentors for any of the above projects (IRC nick is in parens)
 * Sean Vig (IRC: svig) (melange: flacjacket)
 * Roger Duran (rogerduran)
 * Daniel Barrio (dx)
+
+# GSoC Questionnaire
+> Why is your organization applying to participate in Google Summer of Code 2015? What do you hope to gain by participating?*
+
+More interested contributors and patch reviewers. Qtile development velocity 
+has picked up over the last year or so, and GSoC seems like a nice way to
+procure more interest.
+
+> How many potential mentors do you have for this year's program? What criteria did you use to select them?*
+
+Four. All of the mentors have been involved with the project for at least a 
+year (some at least three years), and have contributed major enhancements and
+fixed non-trivial bugs.
+
+> What is your plan for dealing with disappearing students?*
+
+We'd like to have students publish their patches at least once a week, so that 
+they can be reviewed by the community. Also, getting them involved on IRC with
+our discussions seems like the best way to keep them from disappearing in the
+first place.
+
+> What is your plan for dealing with disappearing mentors?*
+
+We have four people who have volunteered to mentor, and will likely only be 
+interested in one project slot, so we have some redundancy there. Additionally,
+all of our maintainers have been active in the project for a long time, and are
+unlikely to disappear without warning.
+
+> What steps will you take to encourage students to interact with your project's community before and during the program?*
+
+Have them join our IRC channel. Our channel is quite active, and lots of bugs 
+and development ideas are discussed there, so it is quite easy to give input in
+realtime or ask questions about implementation details.
+
+> What will you do to encourage your accepted students to stick with the project after Google Summer of Code concludes?*
+
+Be active in providing constructive feedback for their patches during the 
+program. Students applying to GSoC are likely interested in sharpening their
+skills, so if we show them that our community is a good place to do that, we
+think they'll stay involved with the project.
+
+> Are you a new organization who has a Googler or other organization to vouch for you? If so, please list their name(s) here.
+
+I (tych0) have one friend, but please contact me off-list if there is anyone else who could potentially be listed.
