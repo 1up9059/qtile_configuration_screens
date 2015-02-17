@@ -191,6 +191,10 @@ have to design an entirely new codebase, including FFI to C.
 * Current [python-dbus](http://dbus.freedesktop.org/doc/dbus-python/) C extension
 * [CFFI](https://cffi.readthedocs.org/) could be used to call libdbus
 
+**Mentor:**
+
+Tycho Andersen (tych0)
+
 ## Experimental Wayland support
 
 Wayland is the way forward, so it would be good to start working on
@@ -234,6 +238,10 @@ arise.
   guide](http://www.jlekstrand.net/jason/projects/wayland/language-bindings-guide/)
   and related resources from Ekstrand's Java bindings
 
+**Mentor:**
+
+Roger Duran (rogerduran)
+
 ## Better layout serialization
 
 Qtile currently does not serialize layout state across restarts and does not
@@ -259,6 +267,10 @@ things.
   [#372](https://github.com/qtile/qtile/issues/372),
   [#473](https://github.com/qtile/qtile/issues/473),
   [#549](https://github.com/qtile/qtile/issues/549)
+
+**Mentor:**
+
+Any of the [possible mentors](#possible-mentors)
 
 ## Refactor window focusing
 
@@ -298,6 +310,10 @@ trickier as it requires properly dealing with X events and input.
 * ICCCM [discussion of input
   focus](http://tronche.com/gui/x/icccm/sec-4.html#s-4.1.7)
 
+**Mentor:**
+
+Any of the [possible mentors](#possible-mentors).
+
 ## Quick Jump to Windows in a Group by Window Title Search 
 
 This would be very useful if you have a lot of windows in a group and you want
@@ -311,6 +327,10 @@ a text passage), and so on. Let us discuss this idea!
 **Difficulty:**
 
 **Related Links:**
+
+**Mentor:**
+
+Any of the [possible mentors](#possible-mentors).
 
 # Possible Mentors
 
