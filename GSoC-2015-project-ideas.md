@@ -220,24 +220,6 @@ trickier as it requires properly dealing with X events and input.
 
 Any of the [possible mentors](#possible-mentors).
 
-## Quick Jump to Windows in a Group by Window Title Search 
-
-This would be very useful if you have a lot of windows in a group and you want
-to focus quickly to the current window without navigating trough the panes / or
-zapping trough application in the maximum-size layout. Imagine, you can type /f
-to get quickly to the open Firefox window in the group (like in VIM jumping to
-a text passage), and so on. Let us discuss this idea!
-
-**Skills:**
-
-**Difficulty:**
-
-**Related Links:**
-
-**Mentor:**
-
-Any of the [possible mentors](#possible-mentors).
-
 ## An asyncio-based DBus library.
 
 As a part of the 0.9.0 release, we [dropped all C extensions as hard
