@@ -322,7 +322,7 @@ Below are possible mentors for any of the above projects (IRC nick is in parens)
 * Tycho Andersen (tych0)
 * Sean Vig (IRC: svig) (melange: flacjacket)
 * Roger Duran (rogerduran)
-* Daniel Barrio (dx)
+* dx
 
 # GSoC Questionnaire
 > Why is your organization applying to participate in Google Summer of Code 2015? What do you hope to gain by participating?*
