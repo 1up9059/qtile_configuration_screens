@@ -1,4 +1,6 @@
-[Home page](https://github.com/qtile/qtile/wiki)
+**[Home page](https://github.com/qtile/qtile/wiki)**  
+**[Official documentation](http://docs.qtile.org/en/latest/)**  
+**[Troubleshooting](https://github.com/qtile/qtile/wiki/troubleshooting)**
 
 Configuration examples:
 
@@ -12,7 +14,6 @@ Configuration examples:
 - [Mouse keys](https://github.com/qtile/qtile/wiki/mouse)
 - [Rule matching](https://github.com/qtile/qtile/wiki/rule-matching)
 - [Screens](https://github.com/qtile/qtile/wiki/screens)
-- [Troubleshooting](https://github.com/qtile/qtile/wiki/troubleshooting)
 - [Widgets](https://github.com/qtile/qtile/wiki/widgets)
 - [Windows](https://github.com/qtile/qtile/wiki/windows)
 - [Workspaces](https://github.com/qtile/qtile/wiki/workspaces)
