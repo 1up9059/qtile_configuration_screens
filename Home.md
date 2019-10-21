@@ -29,8 +29,6 @@ In this wiki you will find many configuration examples:
 - [Rule matching](https://github.com/qtile/qtile/wiki/rule-matching)
 - [Screens](https://github.com/qtile/qtile/wiki/screens)
   - [Setup multiple screens dynamically](https://github.com/qtile/qtile/wiki/screens#setup-multiple-screens-dynamically)
-- [Troubleshooting](https://github.com/qtile/qtile/wiki/troubleshooting)
-  - [Java applications display issues](https://github.com/qtile/qtile/wiki/troubleshooting#java-applications)
 - [Widgets](https://github.com/qtile/qtile/wiki/widgets)
   - [Gmail widget](https://github.com/qtile/qtile/wiki/widgets#gmail)
   - [Google Calendar widget](https://github.com/qtile/qtile/wiki/widgets#google-calendar)
@@ -41,3 +39,6 @@ In this wiki you will find many configuration examples:
 This wiki contains other documents related to the development of Qtile:
 
 - [Google Summer of Code 2015 - Project ideas](https://github.com/qtile/qtile/wiki/gsoc-2015-project-ideas)
+
+## [Troubleshooting](https://github.com/qtile/qtile/wiki/troubleshooting)
+- [Java applications display issues](https://github.com/qtile/qtile/wiki/troubleshooting#java-applications)
