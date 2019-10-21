@@ -1,1 +1,0 @@
-This is the qtile wiki, newly opened for adding GSoC project ideas an information. Please use the mailing list for any development discussion.
