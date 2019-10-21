@@ -1,3 +1,5 @@
+[Home page](https://github.com/qtile/qtile/wiki)
+
 Configuration examples:
 
 - [Application launchers](https://github.com/qtile/qtile/wiki/app-launchers)
