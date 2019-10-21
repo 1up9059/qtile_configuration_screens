@@ -21,7 +21,7 @@ In this wiki you will find many configuration examples:
   - [Dynamic groups](https://github.com/qtile/qtile/wiki/groups#dynamic-groups)
 - [Keyboard keys](https://github.com/qtile/qtile/wiki/keys)
   - [Enum classes that hold keys](https://github.com/qtile/qtile/wiki/keys#enum-classes-that-hold-keys)
-  - [Multimedia keys](https://github.com/qtile/qtile/wiki/keys#multimedia)
+  - [Multimedia keys](https://github.com/qtile/qtile/wiki/keys#multimedia-keys)
   - [Using the Hyper key](https://github.com/qtile/qtile/wiki/keys#using-the-hyper-key)
 - [Layouts](https://github.com/qtile/qtile/wiki/layouts)
 - [Lazy functions](https://github.com/qtile/qtile/wiki/lazy)
