@@ -3,10 +3,6 @@ This page shows how to change Qtile behavior depending on the application.
 
 - [Dmenu apps](#dmenu-apps)
 - [Dropdown terminal](#dropdown-terminal)
-- [Floating windows for specific applications](#floating-windows)
-  - [Firefox](#firefox)
-  - [PyCharm](#pycharm)
-  - [Steam](#steam)
 
 
 ### Dmenu apps
