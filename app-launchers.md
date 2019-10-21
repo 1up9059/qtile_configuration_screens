@@ -1,4 +1,4 @@
-## Customize applications behavior
+## Applications launchers
 This page shows how to change Qtile behavior depending on the application.
 
 - [Dmenu apps](#dmenu-apps)
