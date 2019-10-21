@@ -1,5 +1,5 @@
 ## Applications launchers
-This page shows how to change Qtile behavior depending on the application.
+This page shows how to create application launchers with keyboard shortcuts.
 
 - [Dmenu apps](#dmenu-apps)
 - [Dropdown terminal](#dropdown-terminal)
