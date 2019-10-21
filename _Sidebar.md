@@ -17,4 +17,4 @@ Configuration examples:
 
 Other documents:
 
-- [Google Summer of Code 2015 - Project ideas](https://github.com/qtile/qtile/wiki/gsoc-2015-project-ideas.)
+- [Google Summer of Code 2015 - Project ideas](https://github.com/qtile/qtile/wiki/gsoc-2015-project-ideas)
