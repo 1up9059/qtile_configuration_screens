@@ -1,6 +1,6 @@
 Configuration examples:
 
-- [Application launchers](/app-launchers)
+- [Application launchers](/app-launchers.md)
 - [Configuration file](/config)
 - [Floating windows](/floating-windows)
 - [Groups](/groups)
