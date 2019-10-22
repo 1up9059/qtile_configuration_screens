@@ -12,6 +12,7 @@ Configuration examples:
 - [Layouts](https://github.com/qtile/qtile/wiki/layouts)
 - [Lazy functions](https://github.com/qtile/qtile/wiki/lazy)
 - [Mouse keys](https://github.com/qtile/qtile/wiki/mouse)
+- [Replicate other window managers)(https://github.com/qtile/qtile/wiki/replicate-other-wm)
 - [Rule matching](https://github.com/qtile/qtile/wiki/rule-matching)
 - [Screens](https://github.com/qtile/qtile/wiki/screens)
 - [Widgets](https://github.com/qtile/qtile/wiki/widgets)
