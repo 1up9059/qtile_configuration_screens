@@ -122,6 +122,16 @@ keys = [
 Of course `mpc` will only work if you are using `mpd` (Music Player Daemon)
 as your music player.
 
+#### Brightness
+You can use an utility like `brightnessctl` to define the actions of your brightness keys:
+```python
+keys = [
+    Key([], "XF86MonBrightnessUp", lazy.spawn("brightnessctl set +2%")),
+    Key([], "XF86MonBrightnessDown", lazy.spawn("brightnessctl set 2%-")),
+    ...
+]
+```
+
 #### Screenshots
 You can use an screenshot taker as `maim`, `scrot`, even `xfce4-screenshoter` to define the actions of your `Print` key.
 
@@ -135,6 +145,7 @@ keys = [
     # Active window
     Key(["mod4", "control"], "Print",
         lazy.spawn("maim -u -i $(xdotool getactivewindow) ~/Pictures/screenshot/window_$(date +%Y-%m-%d-%T).png")),
+    ...
 ]
 ```
 
@@ -151,10 +162,11 @@ keys = [
     Key(["mod4", "shift"], "Print", lazy.spawn("xfce4-screenshooter -r")),
     # Active window
     Key(["mod4", "control"], "Print", lazy.spawn("xfce4-screenshooter -w")),
+    ...
 ]
 ```
 
-:warning: | TODO: add keys for backlight, keyboard lights, etc.
+:warning: | TODO: add keys for keyboard lights, etc.
 ---: | :----
 
 ### Using the Hyper key
