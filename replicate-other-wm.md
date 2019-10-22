@@ -21,11 +21,7 @@ the BSP layout ([see docs](http://docs.qtile.org/en/latest/manual/ref/layouts.ht
 First, lets define the layout itself:
 
 ```python
-from libqtile import layout
-
-
 layouts = [
-    ...
     layout.Bsp(
         border_normal="#000000",
         border_focus="#ffffff",
