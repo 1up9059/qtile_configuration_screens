@@ -1,9 +1,6 @@
 ## Windows
 This page shows code snippets related to Qtile windows.
 
-:warning: | Work in progress! (last update 22/10/2019).
----: | :----
-
 - [Resizing windows](#resizing-windows)
   - [Two-in-one grow/shrink for BSP layout](#two-in-one-grow-shrink-for-BSP-layout)
 
