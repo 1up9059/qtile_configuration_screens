@@ -1,11 +1,47 @@
 ## Floating windows
-Here are some snippets of code that can be used
-to force some windows to float.
+Here are some snippets of code related to floating windows.
 
+- [Bring all floating windows to front](#bring-all-floating-windows-to-front)
+- [Set specific windows in floating mode](#set-specific-windows-in-floating-mode)
+  - [Any window](#any-window)
+  - [Firefox](#firefox)
+  - [PyCharm](#pycharm)
+  - [Steam](#steam)
+
+### Bring all floating windows to front
+Sometimes of floating window ends up behind another window,
+and since the floating layout is separated from the other layouts,
+chances are you cannot focus the window back to front.
+
+So here is a lazy function that will bring **all** floating windows to front:
+
+```python
+@lazy.function
+def float_to_front(qtile):
+    logging.info("bring floating windows to front")
+    for group in qtile.groups:
+        for window in group.windows:
+            if window.floating:
+                window.cmd_bring_to_front()
+```
+
+Now simply define a key that uses this function:
+
+```python
+keys = [
+    ...
+    Key(["mod4", "shift"], "f", float_to_front),
+    ...
+]
+```
+
+### Set specific windows in floating mode
+We currently have snippets for the following applications:
 - [Firefox](#firefox)
 - [PyCharm](#pycharm)
 - [Steam](#steam)
 
+#### Any window
 If the application you search for is not referenced in this wiki,
 here are methods to know how to make it floating.
 The goal is to find the **uniquely identifying information**
@@ -181,7 +217,7 @@ def float_my_app(window):
 Also see examples below.
 
 
-### Firefox
+#### Firefox
 You typically want the secondary windows of Firefox,
 like the download history, the bookmark managers and else,
 to be floating:
@@ -198,7 +234,7 @@ def float_firefox(window):
         window.floating = True
 ```
 
-### PyCharm
+#### PyCharm
 You typically want to float the small brand/intro window
 and the updater windows:
 
@@ -223,7 +259,7 @@ def float_pycharm(window):
         window.floating = True
 ```
 
-### Steam
+#### Steam
 You typically want to put **every** window that is not the main one
 in floating mode:
 
