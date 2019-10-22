@@ -3,6 +3,11 @@ This page shows code snippets related to keyboard keys configuration.
 
 - [Enum classes that hold keys](#enum-classes-that-hold-keys)
 - [Multimedia keys](#multimedia-keys)
+  - [Audio keys](#audio-keys)
+  - [Brightness](#brightness)
+  - [Screenshots](#screenshots)
+    - [Maim](#maim)
+    - [Xfce4-screenshot](#xfce4-screenshot)
 - [Using the Hyper key](#using-the-hyper-key)
 
 ### Enum classes that hold keys
