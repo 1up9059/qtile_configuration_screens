@@ -2,7 +2,7 @@
 This page shows code snippets related to Qtile windows.
 
 - [Resizing windows](#resizing-windows)
-  - [Two-in-one grow/shrink for BSP layout](#two-in-one-grow-shrink-for-BSP-layout)
+  - [Two-in-one grow/shrink for BSP layout](#two-in-one-growshrink-for-BSP-layout)
 
 ### Resizing windows
 You will find here some snippets related to resizing windows.
