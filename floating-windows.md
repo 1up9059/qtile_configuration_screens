@@ -16,9 +16,6 @@ chances are you cannot focus the window back to front.
 So here is a lazy function that will bring **all** floating windows to front:
 
 ```python
-from libqtile.lazy import lazy
-
-
 @lazy.function
 def float_to_front(qtile):
     logging.info("bring floating windows to front")
@@ -31,9 +28,6 @@ def float_to_front(qtile):
 Now simply define a key that uses this function:
 
 ```python
-from libqtile.config import Key
-
-
 keys = [
     ...
     Key(["mod4", "shift"], "f", float_to_front),
