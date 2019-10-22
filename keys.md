@@ -122,7 +122,39 @@ keys = [
 Of course `mpc` will only work if you are using `mpd` (Music Player Daemon)
 as your music player.
 
-:warning: | TODO: add keys for backlight, screenshots, keyboard lights, etc.
+#### Screenshots
+You can use an screenshot taker as `maim`, `scrot`, even `xfce4-screenshoter` to define the actions of your `Print` key.
+
+##### Maim
+```python
+keys = [
+    # Full screen
+    Key([], "Print", lazy.spawn("maim -u ~/Pictures/screenshot/screen_$(date +%Y-%m-%d-%T).png")),
+    # Select area
+    Key([self.mod, "shift"], "Print", lazy.spawn("maim -s ~/Pictures/screenshot/area_$(date +%Y-%m-%d-%T).png")),
+    # Active window
+    Key([self.mod, "control"], "Print",
+        lazy.spawn("maim -u -i $(xdotool getactivewindow) ~/Pictures/screenshot/window_$(date +%Y-%m-%d-%T).png")),
+]
+```
+
+Active window binding will require `xdotool`.
+
+##### Xfce4-screenshot
+```python
+keys = [
+    # Open GUI
+    Key([], "Print", lazy.spawn("xfce4-screenshooter")),
+    # Full screen
+    Key([self.mod], "Print", lazy.spawn("xfce4-screenshooter -f")),
+    # Select area
+    Key([self.mod, "shift"], "Print", lazy.spawn("xfce4-screenshooter -r")),
+    # Active window
+    Key([self.mod, "control"], "Print", lazy.spawn("xfce4-screenshooter -w")),
+]
+```
+
+:warning: | TODO: add keys for backlight, keyboard lights, etc.
 ---: | :----
 
 ### Using the Hyper key
