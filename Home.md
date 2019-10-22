@@ -25,6 +25,7 @@ In this wiki you will find many configuration examples:
 - [Layouts](https://github.com/qtile/qtile/wiki/layouts)
 - [Lazy functions](https://github.com/qtile/qtile/wiki/lazy)
 - [Mouse keys](https://github.com/qtile/qtile/wiki/mouse)
+- [Replicate other window managers](https://github.com/qtile/qtile/wiki/replicate-other-wm)
 - [Rule matching](https://github.com/qtile/qtile/wiki/rule-matching)
 - [Screens](https://github.com/qtile/qtile/wiki/screens)
   - [Setup multiple screens dynamically](https://github.com/qtile/qtile/wiki/screens#setup-multiple-screens-dynamically)
