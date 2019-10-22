@@ -9,7 +9,7 @@ Here are some snippets of code related to floating windows.
   - [Steam](#steam)
 
 ### Bring all floating windows to front
-Sometimes of floating window ends up behind another window,
+Sometimes a floating window ends up behind another window,
 and since the floating layout is separated from the other layouts,
 chances are you cannot focus the window back to front.
 
