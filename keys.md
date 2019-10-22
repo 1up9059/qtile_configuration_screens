@@ -2,7 +2,7 @@
 This page shows code snippets related to keyboard keys configuration.
 
 - [Enum classes that hold keys](#enum-classes-that-hold-keys)
-- [Multimedia keys](#multimedia)
+- [Multimedia keys](#multimedia-keys)
 - [Using the Hyper key](#using-the-hyper-key)
 
 ### Enum classes that hold keys
