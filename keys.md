@@ -129,11 +129,11 @@ You can use an screenshot taker as `maim`, `scrot`, even `xfce4-screenshoter` to
 ```python
 keys = [
     # Full screen
-    Key([], "Print", lazy.spawn("maim -u ~/Pictures/screenshot/screen_$(date +%Y-%m-%d-%T).png")),
+    Key(["mod4"], "Print", lazy.spawn("maim -u ~/Pictures/screenshot/screen_$(date +%Y-%m-%d-%T).png")),
     # Select area
-    Key([self.mod, "shift"], "Print", lazy.spawn("maim -s ~/Pictures/screenshot/area_$(date +%Y-%m-%d-%T).png")),
+    Key(["mod4", "shift"], "Print", lazy.spawn("maim -s ~/Pictures/screenshot/area_$(date +%Y-%m-%d-%T).png")),
     # Active window
-    Key([self.mod, "control"], "Print",
+    Key(["mod4", "control"], "Print",
         lazy.spawn("maim -u -i $(xdotool getactivewindow) ~/Pictures/screenshot/window_$(date +%Y-%m-%d-%T).png")),
 ]
 ```
@@ -146,11 +146,11 @@ keys = [
     # Open GUI
     Key([], "Print", lazy.spawn("xfce4-screenshooter")),
     # Full screen
-    Key([self.mod], "Print", lazy.spawn("xfce4-screenshooter -f")),
+    Key(["mod4"], "Print", lazy.spawn("xfce4-screenshooter -f")),
     # Select area
-    Key([self.mod, "shift"], "Print", lazy.spawn("xfce4-screenshooter -r")),
+    Key(["mod4", "shift"], "Print", lazy.spawn("xfce4-screenshooter -r")),
     # Active window
-    Key([self.mod, "control"], "Print", lazy.spawn("xfce4-screenshooter -w")),
+    Key(["mod4", "control"], "Print", lazy.spawn("xfce4-screenshooter -w")),
 ]
 ```
 
