@@ -13,10 +13,6 @@ This page shows how to create application launchers with keyboard shortcuts.
 Here is an example of how to run `dmenu` apps:
 
 ```python
-from libqtile.config import Key
-from libqtile.lazy import lazy
-
-
 class Commands:
     dmenu = "dmenu_run -i -b -p '>>>' -fn 'Open Sans-10' -nb '#000' -nf '#fff' -sb '#00BF32' -sf '#fff'"
     dmenu_session = "dmenu-session"
@@ -42,8 +38,6 @@ Here is a snippet of code that shows how to setup a dropdown terminal:
 
 ```python
 from libqtile.config import ScratchPad, DropDown
-from libqtile.config import Key
-from libqtile.lazy import lazy
 
 
 # define your keys and groups
