@@ -135,7 +135,7 @@ keys = [
 #### Screenshots
 You can use an screenshot taker as `maim`, `scrot`, even `xfce4-screenshoter` to define the actions of your `Print` key.
 
-##### Maim
+#### Maim
 ```python
 keys = [
     # Full screen
@@ -151,7 +151,7 @@ keys = [
 
 Active window binding will require `xdotool`.
 
-##### Xfce4-screenshot
+#### Xfce4-screenshot
 ```python
 keys = [
     # Open GUI
