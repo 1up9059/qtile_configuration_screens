@@ -39,7 +39,6 @@ Here is a snippet of code that shows how to setup a dropdown terminal:
 ```python
 from libqtile.config import ScratchPad, DropDown
 
-
 # define your keys and groups
 keys = [...]
 groups = [...]
@@ -68,7 +67,7 @@ groups.append(
                 height=0.6,
                 opacity=0.9,
                 on_focus_lost_hide=True
-            )
+            ),
         ]
     )
 )
@@ -79,3 +78,48 @@ keys.extend([
     Key([], "F11", lazy.group["scratchpad"].dropdown_toggle("qshell")),
 ])
 ```
+
+#### Dropdown terminal with environment variables
+To set an terminal emulator that can be called on Qtile and any other program that support environment variables reading.
+
+Export a variable in `~/.profile`:
+```sh
+export TERMINAL="urxvt"
+```
+
+Then, in `config.py`:
+```python
+from os import environ
+from libqtile.config import ScratchPad, DropDown
+
+# Get terminal from environment variables
+terminal = environ.get("TERMINAL")
+
+# define your keys and groups
+keys = [...]
+groups = [...]
+
+# append a scratchpad group
+groups.append(
+    ScratchPad(
+        "scratchpad", [
+            # define a drop down terminal for Cmus (music player)
+            DropDown(
+                "cmus",
+                terminal + " -e cmus",
+                opacity=0.88,
+                height=0.55,
+                width=0.80
+            ),
+        ]
+    )
+)
+
+# define keys to toggle the dropdown for Cmus (music player)
+keys.extend([
+    Key([], "F10", lazy.group["scratchpad"].dropdown_toggle("cmus")),
+])
+```
+
+:information_source: | Environment variables are loaded on login, so any change will require you to login again.
+---: | :----
