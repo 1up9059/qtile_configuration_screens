@@ -137,6 +137,9 @@ keys = [
 ]
 ```
 
+:information_source: | NOTE: if `brightnessctl` must be run as root, you can set the SUID bit on the executable with `sudo chmod u+s /usr/bin/brightnessctl`.
+---: | :---
+
 #### Screenshots
 You can use an screenshot taker as `maim`, `scrot`, even `xfce4-screenshoter` to define the actions of your `Print` key.
 
