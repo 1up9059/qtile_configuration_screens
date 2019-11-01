@@ -137,6 +137,9 @@ keys = [
 ]
 ```
 
+:information_source: | NOTE: `brightnessctl` have an udev rule to allow users in `video` group write the brightness file. You can add your user to `video` group with `sudo usermod -aG video $USER`.
+---: | :---
+
 :information_source: | NOTE: if `brightnessctl` must be run as root, you can set the SUID bit on the executable with `sudo chmod u+s /usr/bin/brightnessctl`.
 ---: | :---
 
