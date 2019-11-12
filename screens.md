@@ -1,5 +1,5 @@
 ## Screens
-This page shows code snippets related to rule screens.
+This page shows code snippets related to screens.
 
 - [Setup multiple screens dynamically](#setup-multiple-screens-dynamically)
 
