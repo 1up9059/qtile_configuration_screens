@@ -198,3 +198,19 @@ See [Hooks](http://docs.qtile.org/en/latest/manual/ref/hooks.html)
 for more information on hooks.
 Also see this issue if you are having issues:
 [#1414](https://github.com/qtile/qtile/issues/1414).
+
+### Using the Numpad keys
+To use the `Numpad` keys as key bindings use the following table:
+
+| Numpad Key | Key Code  |
+|------------|-----------|
+| 0          | KP_Insert |
+| 1          | KP_End    |
+| 2          | KP_Down   |
+| 3          | KP_Next   |
+| 4          | KP_Left   |
+| 5          | KP_Begin  |
+| 6          | KP_Right  |
+| 7          | KP_Home   |
+| 8          | KP_Up     |
+| 9          | KP_Prior  |
