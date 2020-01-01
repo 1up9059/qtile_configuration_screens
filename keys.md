@@ -9,6 +9,7 @@ This page shows code snippets related to keyboard keys configuration.
     - [Maim](#maim)
     - [Xfce4-screenshot](#xfce4-screenshot)
 - [Using the Hyper key](#using-the-hyper-key)
+- [Using the Numpad keys](#using-the-numpad-keys)
 
 ### Enum classes that hold keys
 While waiting for the snippet in
