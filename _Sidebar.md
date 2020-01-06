@@ -15,6 +15,7 @@ Configuration examples:
 - [Replicate other window managers](https://github.com/qtile/qtile/wiki/replicate-other-wm)
 - [Rule matching](https://github.com/qtile/qtile/wiki/rule-matching)
 - [Screens](https://github.com/qtile/qtile/wiki/screens)
+- [Wallpapers](https://github.com/qtile/qtile/wiki/wallpapers)
 - [Widgets](https://github.com/qtile/qtile/wiki/widgets)
 - [Windows](https://github.com/qtile/qtile/wiki/windows)
 - [Workspaces](https://github.com/qtile/qtile/wiki/workspaces)
