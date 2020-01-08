@@ -28,6 +28,7 @@ In this wiki you will find many configuration examples:
 - [Replicate other window managers](https://github.com/qtile/qtile/wiki/replicate-other-wm)
   - [i3](https://github.com/qtile/qtile/wiki/replicate-other-wm#i3)
   - [Special: Terminator](https://github.com/qtile/qtile/wiki/replicate-other-wm#special-terminator)
+- [Rices](https://github.com/qtile/qtile/wiki/rices)
 - [Rule matching](https://github.com/qtile/qtile/wiki/rule-matching)
 - [Screens](https://github.com/qtile/qtile/wiki/screens)
   - [Setup multiple screens dynamically](https://github.com/qtile/qtile/wiki/screens#setup-multiple-screens-dynamically)
