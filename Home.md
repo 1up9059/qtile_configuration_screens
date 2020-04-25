@@ -33,6 +33,7 @@ In this wiki you will find many configuration examples:
 - [Screens](https://github.com/qtile/qtile/wiki/screens)
   - [Setup multiple screens dynamically](https://github.com/qtile/qtile/wiki/screens#setup-multiple-screens-dynamically)
 - [Wallpapers](https://github.com/qtile/qtile/wiki/wallpapers)
+  - [Natively](https://github.com/qtile/qtile/wiki/wallpapers#native-setting)
   - [With nitrogen](https://github.com/qtile/qtile/wiki/wallpapers#nitrogen)
   - [With feh](https://github.com/qtile/qtile/wiki/wallpapers#feh)
   - [With the wallpaper widget](https://github.com/qtile/qtile/wiki/wallpapers#wallpaper-widget)
