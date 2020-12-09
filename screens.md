@@ -51,8 +51,7 @@ screens = [
     Screen(
         top=bar.Bar(
             [...],  # main screen widgets
-            bar_size=24,
-            opacity=0.8,
+            24, # Bar Size 
         ),
     )
 ]
@@ -63,8 +62,7 @@ if num_monitors > 1:
             Screen(
                 top=bar.Bar(
                     [...],  # other screens widgets
-                    bar_size=24,
-                    opacity=0.8,
+                    24,
                 ),
             )
         )
